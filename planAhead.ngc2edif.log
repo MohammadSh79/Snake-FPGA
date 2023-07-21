@@ -1,0 +1,40 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design CAD971Test.ngc ...
+WARNING:NetListWriters:298 - No output is written to CAD971Test.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   VGA_SQ/Maddsub_SquareX[9]_SquareX[9]_mux_10_OUT_cy<5 : 2> on block CAD971Test
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   VGA_SQ/SquareX[9]_SquareX[9]_mux_10_OUT<9 : 2> on block CAD971Test is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   VGA_SQ/SquareY[9]_SquareY[9]_mux_20_OUT<8 : 2> on block CAD971Test is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CAD971Test.edif ...
+ngc2edif: Total memory usage is 4314408 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design CAD971Test.ngc ...
+WARNING:NetListWriters:298 - No output is written to CAD971Test.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   VGA_SQ/Maddsub_SquareX[9]_SquareX[9]_mux_10_OUT_cy<5 : 2> on block CAD971Test
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   VGA_SQ/SquareX[9]_SquareX[9]_mux_10_OUT<9 : 2> on block CAD971Test is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   VGA_SQ/SquareY[9]_SquareY[9]_mux_20_OUT<8 : 2> on block CAD971Test is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CAD971Test.edif ...
+ngc2edif: Total memory usage is 4313832 kilobytes
+

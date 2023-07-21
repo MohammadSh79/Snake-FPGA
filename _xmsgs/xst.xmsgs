@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\CAD971Test.vhd" Line 79: Actual for formal port <arg fmt="%s" index="1">reset</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\CAD971Test.vhd" Line 89: Actual for formal port <arg fmt="%s" index="1">reset</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\VGA_Square.vhd" Line 109: <arg fmt="%s" index="1">sseg_buffer</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\VGA_Square.vhd" Line 110: <arg fmt="%s" index="1">an_buffer</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\VGA_Square.vhd" Line 317: <arg fmt="%s" index="1">headx</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\VGA_Square.vhd" Line 319: <arg fmt="%s" index="1">ended</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\VGA_Square.vhd" Line 328: <arg fmt="%s" index="1">tailpos</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\VGA_Square.vhd" Line 329: <arg fmt="%s" index="1">tailpos</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\VGA_Square.vhd" Line 331: <arg fmt="%s" index="1">ended</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\VGA_Square.vhd" Line 342: <arg fmt="%s" index="1">applex</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Mohammad\Desktop\CAD_Project\VGA_Square.vhd" Line 347: <arg fmt="%s" index="1">bomben</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SW</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">LEDs_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA_SQ</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;LEDs_1&gt; &lt;LEDs_2&gt; &lt;LEDs_3&gt; &lt;LEDs_4&gt; &lt;LEDs_5&gt; &lt;LEDs_6&gt; &lt;LEDs_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n1694</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_PWR_10_o_PWR_10_o_mux_53_OUT</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n1698</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n1701</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">LEDs_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;LEDs_1&gt; &lt;LEDs_2&gt; &lt;LEDs_3&gt; &lt;LEDs_4&gt; &lt;LEDs_5&gt; &lt;LEDs_6&gt; &lt;LEDs_7&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">BombX_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">VGA_Square</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">BombX_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">VGA_Square</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">BombY_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">VGA_Square</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">BombY_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">VGA_Square</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">gameSpeed_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">gameSpeed_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">gameSpeed_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">gameSpeed_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">gameSpeed_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">gameSpeed_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">gameSpeed_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">gameSpeed_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">AppleY_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">AppleY_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">AppleX_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">AppleX_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">HeadX_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">HeadX_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">HeadY_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">HeadY_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldX_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PrescalerCounter.oldY_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">BombX_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA_Square</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;BombX_1&gt; &lt;BombY_0&gt; &lt;BombY_1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="3002" delta="old" >This design contains one or more registers/latches that are directly
+incompatible with the <arg fmt="%s" index="1">Spartan6</arg> architecture. The two primary causes of this is
+either a register or latch described with both an asynchronous set and
+asynchronous reset, or a register or latch described with an asynchronous
+set or reset which however has an initialization value of the opposite 
+polarity (i.e. asynchronous reset with an initialization value of 1).
+ While this circuit can be built, it creates a sub-optimal implementation
+in terms of area, power and performance. For a more optimal implementation
+Xilinx highly recommends one of the following:
+
+       1) Remove either the set or reset from all registers and latches
+          if not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Ensure all registers have the same initialization value as the
+          described asynchronous set or reset polarity
+       4) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">HeadX_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">HeadX_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">HeadY_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA_Square</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VGA_Control/CurrentHPos_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_Control/CurrentVPos_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/gameSpeed_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/gameSpeed_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/gameSpeed_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/gameSpeed_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/gameSpeed_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/gameSpeed_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/gameSpeed_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/AppleY_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/AppleY_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/AppleY_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/AppleX_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/AppleX_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/HeadX_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/HeadX_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/HeadY_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/HeadY_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/HeadY_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/Prescaler1_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/Prescaler1_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/Prescaler1_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/Prescaler1_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/Prescaler1_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/Prescaler1_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/Prescaler1_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CAD971Test</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_3_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_3_1_11&gt; &lt;VGA_SQ/tailPos_3_1_10&gt; &lt;VGA_SQ/tailPos_3_1_9&gt; &lt;VGA_SQ/tailPos_3_1_1&gt; &lt;VGA_SQ/tailPos_3_1_0&gt; &lt;VGA_SQ/tailPos_3_0_10&gt; &lt;VGA_SQ/tailPos_3_0_1&gt; &lt;VGA_SQ/tailPos_3_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/PrescalerCounter.oldY_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/PrescalerCounter.oldY_10&gt; &lt;VGA_SQ/PrescalerCounter.oldY_9&gt; &lt;VGA_SQ/PrescalerCounter.oldY_1&gt; &lt;VGA_SQ/PrescalerCounter.oldY_0&gt; &lt;VGA_SQ/PrescalerCounter.oldX_11&gt; &lt;VGA_SQ/PrescalerCounter.oldX_10&gt; &lt;VGA_SQ/PrescalerCounter.oldX_1&gt; &lt;VGA_SQ/PrescalerCounter.oldX_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_12_1_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_12_1_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_9_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_9_1_11&gt; &lt;VGA_SQ/tailPos_9_1_10&gt; &lt;VGA_SQ/tailPos_9_1_9&gt; &lt;VGA_SQ/tailPos_9_1_1&gt; &lt;VGA_SQ/tailPos_9_1_0&gt; &lt;VGA_SQ/tailPos_9_0_10&gt; &lt;VGA_SQ/tailPos_9_0_1&gt; &lt;VGA_SQ/tailPos_9_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_11_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_11_1_11&gt; &lt;VGA_SQ/tailPos_11_1_10&gt; &lt;VGA_SQ/tailPos_11_1_9&gt; &lt;VGA_SQ/tailPos_11_1_1&gt; &lt;VGA_SQ/tailPos_11_1_0&gt; &lt;VGA_SQ/tailPos_11_0_10&gt; &lt;VGA_SQ/tailPos_11_0_1&gt; &lt;VGA_SQ/tailPos_11_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_6_1_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_6_1_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_5_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_5_0_10&gt; &lt;VGA_SQ/tailPos_5_0_1&gt; &lt;VGA_SQ/tailPos_5_0_0&gt; &lt;VGA_SQ/tailPos_5_1_11&gt; &lt;VGA_SQ/tailPos_5_1_10&gt; &lt;VGA_SQ/tailPos_5_1_9&gt; &lt;VGA_SQ/tailPos_5_1_1&gt; &lt;VGA_SQ/tailPos_5_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_0_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_0_1_11&gt; &lt;VGA_SQ/tailPos_0_1_10&gt; &lt;VGA_SQ/tailPos_0_1_9&gt; &lt;VGA_SQ/tailPos_0_1_1&gt; &lt;VGA_SQ/tailPos_0_1_0&gt; &lt;VGA_SQ/tailPos_0_0_10&gt; &lt;VGA_SQ/tailPos_0_0_1&gt; &lt;VGA_SQ/tailPos_0_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_2_1_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_2_1_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/BombY_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/BombY_10&gt; &lt;VGA_SQ/BombY_9&gt; &lt;VGA_SQ/BombX_11&gt; &lt;VGA_SQ/BombX_10&gt; &lt;VGA_SQ/BombX_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_13_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_13_0_10&gt; &lt;VGA_SQ/tailPos_13_0_1&gt; &lt;VGA_SQ/tailPos_13_0_0&gt; &lt;VGA_SQ/tailPos_13_1_11&gt; &lt;VGA_SQ/tailPos_13_1_10&gt; &lt;VGA_SQ/tailPos_13_1_9&gt; &lt;VGA_SQ/tailPos_13_1_1&gt; &lt;VGA_SQ/tailPos_13_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_15_1_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_15_1_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_8_1_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_8_1_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_1_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_1_1_11&gt; &lt;VGA_SQ/tailPos_1_1_10&gt; &lt;VGA_SQ/tailPos_1_1_9&gt; &lt;VGA_SQ/tailPos_1_1_1&gt; &lt;VGA_SQ/tailPos_1_1_0&gt; &lt;VGA_SQ/tailPos_1_0_10&gt; &lt;VGA_SQ/tailPos_1_0_1&gt; &lt;VGA_SQ/tailPos_1_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_10_1_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_10_1_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_14_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_14_1_11&gt; &lt;VGA_SQ/tailPos_14_1_10&gt; &lt;VGA_SQ/tailPos_14_1_9&gt; &lt;VGA_SQ/tailPos_14_1_1&gt; &lt;VGA_SQ/tailPos_14_1_0&gt; &lt;VGA_SQ/tailPos_14_0_10&gt; &lt;VGA_SQ/tailPos_14_0_1&gt; &lt;VGA_SQ/tailPos_14_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_7_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_7_1_11&gt; &lt;VGA_SQ/tailPos_7_1_10&gt; &lt;VGA_SQ/tailPos_7_1_9&gt; &lt;VGA_SQ/tailPos_7_1_1&gt; &lt;VGA_SQ/tailPos_7_1_0&gt; &lt;VGA_SQ/tailPos_7_0_10&gt; &lt;VGA_SQ/tailPos_7_0_1&gt; &lt;VGA_SQ/tailPos_7_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">VGA_SQ/tailPos_4_1_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAD971Test</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VGA_SQ/tailPos_4_1_11&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">VGA_SQ/direction_FSM_FFd2_LD</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">CAD971Test</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+</messages>

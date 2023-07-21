@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.xst" -ofn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.syr" 
+xst -intstyle ise -ifn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.xst" -ofn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.syr" 
+xst -intstyle ise -ifn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.xst" -ofn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.syr" 
+xst -intstyle ise -ifn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.xst" -ofn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.syr" 
+xst -intstyle ise -ifn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.xst" -ofn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.syr" 
+xst -intstyle ise -ifn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.xst" -ofn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.syr" 
+xst -intstyle ise -ifn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.xst" -ofn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.syr" 
+xst -intstyle ise -ifn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.xst" -ofn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.syr" 
+xst -intstyle ise -ifn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.xst" -ofn "C:/Users/Mohammad/Desktop/CAD_VGA_Xilinx/CAD001Project.syr" 
+xst -intstyle ise -ifn "C:/Users/Mohammad/Desktop/CAD_Project/CAD001Project.xst" -ofn "C:/Users/Mohammad/Desktop/CAD_Project/CAD001Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD001Project.ngc CAD001Project.ngd  

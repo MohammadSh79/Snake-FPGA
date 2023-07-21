@@ -1,0 +1,458 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Reading design: CAD001Project.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CAD001Project.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CAD001Project"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : CAD001Project
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Mohammad\Desktop\CAD_Project\VGA_controller.vhd" into library work
+Parsing entity <VGA_controller>.
+Parsing architecture <Behavioral> of entity <vga_controller>.
+Parsing VHDL file "C:\Users\Mohammad\Desktop\CAD_Project\CAD971Test.vhd" into library work
+Parsing entity <CAD001Project>.
+Parsing architecture <CAD001Project> of entity <cad001project>.
+WARNING:HDLCompiler:946 - "C:\Users\Mohammad\Desktop\CAD_Project\CAD971Test.vhd" Line 75: Actual for formal port reset is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\Mohammad\Desktop\CAD_Project\CAD971Test.vhd" Line 85: Actual for formal port reset is neither a static name nor a globally static expression
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <CAD001Project> (architecture <CAD001Project>) from library <work>.
+
+Elaborating entity <VGA_controller> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:89 - "C:\Users\Mohammad\Desktop\CAD_Project\CAD971Test.vhd" Line 49: <vga_snake> remains a black-box since it has no binding entity.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <CAD001Project>.
+    Related source file is "C:\Users\Mohammad\Desktop\CAD_Project\CAD971Test.vhd".
+WARNING:Xst:647 - Input <SW> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <CAD001Project> synthesized.
+
+Synthesizing Unit <VGA_controller>.
+    Related source file is "C:\Users\Mohammad\Desktop\CAD_Project\VGA_controller.vhd".
+    Found 11-bit register for signal <CurrentVPos>.
+    Found 11-bit register for signal <CurrentHPos>.
+    Found 11-bit adder for signal <CurrentHPos[10]_GND_6_o_add_1_OUT> created at line 48.
+    Found 11-bit adder for signal <CurrentVPos[10]_GND_6_o_add_3_OUT> created at line 51.
+    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_20_OUT<10:0>> created at line 79.
+    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_17_OUT<10:0>> created at line 76.
+    Found 11-bit comparator greater for signal <CurrentHPos[10]_GND_6_o_LessThan_1_o> created at line 47
+    Found 11-bit comparator greater for signal <CurrentVPos[10]_GND_6_o_LessThan_3_o> created at line 50
+    Found 11-bit comparator lessequal for signal <CurrentHPos[10]_GND_6_o_LessThan_10_o> created at line 61
+    Found 11-bit comparator lessequal for signal <CurrentVPos[10]_GND_6_o_LessThan_11_o> created at line 64
+    Found 11-bit comparator lessequal for signal <n0012> created at line 67
+    Found 11-bit comparator greater for signal <CurrentHPos[10]_GND_6_o_LessThan_13_o> created at line 67
+    Found 11-bit comparator lessequal for signal <n0017> created at line 70
+    Found 11-bit comparator greater for signal <CurrentVPos[10]_GND_6_o_LessThan_15_o> created at line 70
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+	inferred   7 Multiplexer(s).
+Unit <VGA_controller> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 11-bit adder                                          : 2
+ 11-bit subtractor                                     : 2
+# Registers                                            : 2
+ 11-bit register                                       : 2
+# Comparators                                          : 8
+ 11-bit comparator greater                             : 4
+ 11-bit comparator lessequal                           : 4
+# Multiplexers                                         : 7
+ 11-bit 2-to-1 multiplexer                             : 4
+ 2-bit 2-to-1 multiplexer                              : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <VGA_controller>.
+The following registers are absorbed into counter <CurrentHPos>: 1 register on signal <CurrentHPos>.
+The following registers are absorbed into counter <CurrentVPos>: 1 register on signal <CurrentVPos>.
+Unit <VGA_controller> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 11-bit subtractor                                     : 2
+# Counters                                             : 2
+ 11-bit up counter                                     : 2
+# Comparators                                          : 8
+ 11-bit comparator greater                             : 4
+ 11-bit comparator lessequal                           : 4
+# Multiplexers                                         : 5
+ 11-bit 2-to-1 multiplexer                             : 2
+ 2-bit 2-to-1 multiplexer                              : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <CAD001Project> ...
+
+Optimizing unit <VGA_controller> ...
+WARNING:Xst:1293 - FF/Latch <VGA_Control/CurrentVPos_10> has a constant value of 0 in block <CAD001Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <VGA_Control/CurrentHPos_10> has a constant value of 0 in block <CAD001Project>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+WARNING:Xst:2036 - Inserting OBUF on port <an<3>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <an<2>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <an<1>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <an<0>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <sseg<7>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <sseg<6>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <sseg<5>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <sseg<4>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <sseg<3>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <sseg<2>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <sseg<1>> driven by black box <VGA_snake>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <sseg<0>> driven by black box <VGA_snake>. Possible simulation mismatch.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CAD001Project, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : CAD001Project.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 105
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 8
+#      LUT3                        : 9
+#      LUT4                        : 3
+#      LUT5                        : 11
+#      LUT6                        : 34
+#      MUXCY                       : 18
+#      XORCY                       : 20
+# FlipFlops/Latches                : 20
+#      FDC                         : 10
+#      FDCE                        : 10
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 26
+#      IBUF                        : 6
+#      OBUF                        : 20
+# Others                           : 1
+#      VGA_snake                   : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              20  out of  11440     0%  
+ Number of Slice LUTs:                   66  out of   5720     1%  
+    Number used as Logic:                66  out of   5720     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     66
+   Number with an unused Flip Flop:      46  out of     66    69%  
+   Number with an unused LUT:             0  out of     66     0%  
+   Number of fully used LUT-FF pairs:    20  out of     66    30%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  26  out of    102    25%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLOCK_24                           | IBUF+BUFG              | 20    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.570ns (Maximum Frequency: 218.818MHz)
+   Minimum input arrival time before clock: 4.008ns
+   Maximum output required time after clock: 8.202ns
+   Maximum combinational path delay: 4.959ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK_24'
+  Clock period: 4.570ns (frequency: 218.818MHz)
+  Total number of paths / destination ports: 1165 / 30
+-------------------------------------------------------------------------
+Delay:               4.570ns (Levels of Logic = 2)
+  Source:            VGA_Control/CurrentHPos_3 (FF)
+  Destination:       VGA_Control/CurrentVPos_9 (FF)
+  Source Clock:      CLOCK_24 rising
+  Destination Clock: CLOCK_24 rising
+
+  Data Path: VGA_Control/CurrentHPos_3 to VGA_Control/CurrentVPos_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.525   1.221  VGA_Control/CurrentHPos_3 (VGA_Control/CurrentHPos_3)
+     LUT6:I0->O           11   0.254   1.039  VGA_Control/CurrentHPos[10]_GND_6_o_LessThan_1_o_inv_inv11 (VGA_Control/CurrentHPos[10]_GND_6_o_LessThan_1_o_inv_inv1)
+     LUT5:I4->O            9   0.254   0.975  VGA_Control/CurrentHPos[10]_GND_6_o_LessThan_1_o_inv1 (VGA_Control/CurrentHPos[10]_GND_6_o_LessThan_1_o_inv)
+     FDCE:CE                   0.302          VGA_Control/CurrentVPos_1
+    ----------------------------------------
+    Total                      4.570ns (1.335ns logic, 3.235ns route)
+                                       (29.2% logic, 70.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK_24'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              4.008ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_Control/CurrentVPos_9 (FF)
+  Destination Clock: CLOCK_24 rising
+
+  Data Path: RESET_N to VGA_Control/CurrentVPos_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  RESET_N_IBUF (RESET_N_IBUF)
+     INV:I->O             20   0.255   1.285  RESET_N_INV_1_o1_INV_0 (RESET_N_INV_1_o)
+     FDC:CLR                   0.459          VGA_Control/CurrentHPos_0
+    ----------------------------------------
+    Total                      4.008ns (2.042ns logic, 1.966ns route)
+                                       (50.9% logic, 49.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK_24'
+  Total number of paths / destination ports: 598 / 30
+-------------------------------------------------------------------------
+Offset:              8.202ns (Levels of Logic = 4)
+  Source:            VGA_Control/CurrentVPos_3 (FF)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      CLOCK_24 rising
+
+  Data Path: VGA_Control/CurrentVPos_3 to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.525   1.018  VGA_Control/CurrentVPos_3 (VGA_Control/CurrentVPos_3)
+     LUT2:I0->O            8   0.250   0.944  VGA_Control/Blank_INV_22_o111 (VGA_Control/Blank_INV_22_o11)
+     LUT6:I5->O           15   0.254   1.383  VGA_Control/Blank_INV_22_o2 (VGA_Control/Blank_INV_22_o2)
+     LUT6:I3->O            1   0.235   0.681  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                      8.202ns (4.176ns logic, 4.026ns route)
+                                       (50.9% logic, 49.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 24 / 24
+-------------------------------------------------------------------------
+Delay:               4.959ns (Levels of Logic = 2)
+  Source:            VGA_SNK:ColorOut<1> (PAD)
+  Destination:       VGA_B<1> (PAD)
+
+  Data Path: VGA_SNK:ColorOut<1> to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    VGA_snake:ColorOut<1>    1   0.000   1.112  VGA_SNK (ColorTable<1>)
+     LUT6:I1->O            1   0.254   0.681  VGA_Control/Mmux_BLUE21 (VGA_B_1_OBUF)
+     OBUF:I->O                 2.912          VGA_B_1_OBUF (VGA_B<1>)
+    ----------------------------------------
+    Total                      4.959ns (3.166ns logic, 1.793ns route)
+                                       (63.8% logic, 36.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLOCK_24
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |    4.570|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.15 secs
+ 
+--> 
+
+Total memory usage is 4486020 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

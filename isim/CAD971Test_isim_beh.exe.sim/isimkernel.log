@@ -1,0 +1,28 @@
+Command line:
+   CAD971Test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53083
+
+Thu Jun 30 18:08:41 2022
+
+
+ Elaboration Time: 0.15625 sec
+
+ Current Memory Usage: 5154.7 Meg
+
+ Total Signals          : 56
+ Total Nets             : 1514
+ Total Signal Drivers   : 33
+ Total Blocks           : 8
+ Total Primitive Blocks : 7
+ Total Processes        : 16
+ Total Traceable Variables  : 56
+ Total Scalar Nets and Variables : 2161
+
+ Total Simulation Time: 0.421875 sec
+
+ Current Memory Usage: 4997.41 Meg
+
+Thu Jun 30 18:09:51 2022
+
